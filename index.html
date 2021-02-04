@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;1,200;1,600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/images/icon.png">
+    <link rel="stylesheet" href="css/estilo.css"> 
+    <link rel="stylesheet" href="css/fontello.css">
+    <title>Quilmore propiedades</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="img-fluid logo" src="/images/logo quilmore.webp" alt="responsive image">            
+            <!-- <img class="img-fluid maps" src="/images/maps.png" alt=""> -->
+        </div>
+    </header>        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-lg-12 col-md-12 col-sm-12">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav md-auto"> <!-- md para izquierda, ml para que esta a la derecha, mx para centrar -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sitio">Nuestros trabajos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" >
+                    Loteos</a>
+                  <div class="dropdown-menu Desplegable" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#Loteos">Loteo Monte Verde</a>
+                    <a class="dropdown-item" href="#Loteos">Loteo R</a>
+                    <a class="dropdown-item" href="#Loteos">Lotes Manfredi</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#AboutUS">Acerca de nosotros</a>
+                </li>
+                </ul>
+              </div>
+            </nav>
+                                      <!-- INICIO -->
+
+  <div class="cuerpo">
+        <div id="inicio" >
+            <img src="/images/logo quilmore.webp" alt="">
+            <div>
+              <h1>Quilmore Propiedades</h1>
+              <h2>Inversiones en Bienes Raíces</h2>
+          </div>
+        </div>
+                                              <!-- INICIO -->
+                                              <!-- LOTES -->                                   
+        <div  data-aos="fade-down" data-aos-duration="1500">
+          <h1 class="Titulos">Loteos</h1>
+        </div>
+        <div id="Loteos" data-aos="fade-down" data-aos-duration="1500">
+          <div class="card bg-dark text-white">
+            <h3 class="TextoLotes">Almafuerte Nuevo barrio</h3>
+            <img src="/images/loteo/flyer-mayo.jpg" class="card-img" alt="...">
+          </div>
+          <div class="card bg-dark text-white">
+            <h3 class="TextoLotes">Altos de Monteverde</h3>
+            <img src="/images/loteo/Monteverde-11042019.jpg" class="card-img" alt="...">
+          </div>
+          <div class="card bg-dark text-white">
+            <h3 class="TextoLotes">Barrio Republica</h3>
+            <img src="/images/loteo/Post-3101.jpg" class="card-img" alt="...">
+          </div>
+        </div>         
+         <div class="InformacionDeLotes">
+            <a href="https://wa.me/+541124923030?text=Hola%21+me+interesan+los+lotes+que+tienes+publicados%2C+quisiera+mas+información+por+favor">Click aqui para recibir mas información</a>
+          </div>
+
+                                               <!-- LOTES -->                                   
+
+
+                                      <!-- Contacto -->
+    <div data-aos="fade-down" data-aos-duration="1500">
+      <h1 class="Titulos">Contacto</h1>
+    </div>
+      <div id="Contacto">        
+        <div class="direccion" data-aos="fade-right" data-aos-duration="1500"> 
+          <h3>
+            Telefono:
+          </h3>
+          <h3>
+            1124923030
+          </h3>
+          <h3>
+            correo:
+          </h3>
+          <h3>
+            quilmorepropiedades@gmail.com
+          </h3>
+        </div>
+        <div class="col-lg-9 col-md-12 col-sm-12">
+          <iframe
+          data-aos="fade-left" data-aos-duration="1500" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.35049374663!2d-58.39286408422752!3d-34.8222791766031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd4a110c2709d%3A0xd2d3ad3f3abbad75!2sQuilmore%20propiedades!5e0!3m2!1sen!2sar!4v1612139289233!5m2!1sen!2sar" width="850" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       </div>
+      <div data-aos="fade-up" data-aos-duration="1500" class="card col-9 m-auto formulario" >
+        <div class="card-body">
+            <form method="POST" action="/pages/correo.php">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre">
+                  </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Para mas información ingrese su mensaje aqui</label>
+                    <textarea type="email" placeholder="Coloque su mensaje aquí" class="form-control" id="msg" name="msg"></textarea>
+                  </div>
+                <input type="submit" class="btn btn-primary boton" name="enviar" value="Enviar">
+              </form>
+        </div>
+      </div>  
+    </div>
+      
+                                            <!-- Contacto -->     
+
+                                            <!-- About us -->
+
+        <div data-aos="fade-up"data-aos-duration="2000" id="AboutUS">          
+          <h1  class="Titulos">Sobre Nosotros</h1>
+          <div class="texto">
+          <h2>Comprometidos con la excelencia</h2>
+          <h3>Desde su creación en 2016, Quilmore Propiedades se ha ganado su reputación como uno de los principales Desarrolladores inmobiliarios de Burzaco y sus alrededores. Estamos  orgullosos de desarrollar  loteos con una marcada huella de sostenibilidad. Contar con un sólido equipo de profesionales del sector nos permite crear valor en nuestros proyectos y en saber traducir la visión de nuestros inversionistas y clientes en realidad. Para obtener más información sobre el perfil de nuestra empresa, póngase en contacto hoy mismo.</h3>
+        </div>
+      </div>
+      <div id="sitio">
+      <h1 class="Titulos">Estamos trabajando para poder traerte la mejor experiencia, proximamente la web completa estará disponible</h1>
+    </div>  
+      <img class="img-fluid construccion" src="images/SITIO-EN-CONSTRUCCION.jpg" alt="">  <div class="container">
+      <input type="checkbox"id="btn-mas">
+      <div class="redes">
+        <a href="https://www.facebook.com/quilmorepropiedades"class="icon-facebook"></a>
+        <a href="https://wa.me/+541124923030?text=Hola%21+me+interesan+los+lotes+que+tienes+publicados%2C+quisiera+mas+información+por+favor"class="icon-whatsapp"></a>
+        <a href="mailto:quilmorepropiedades@gmail.com?subject=Información acerca de los loteos y/o propiedades&body=Hola! me interesan los lotes que tienes publicados, quisiera mas información por favor"
+        class="icon-mail"></a>
+      </div>
+      <div class="btn-mas">
+        <label for="btn-mas" class="icon-plus-outline"></label>
+      </div>
+    </div>
+  </div>
+                                                  <!-- About us -->
+                                      <!-- Nuestros trabajos -->
+     <!-- <div id="trabajos"><h1 data-aos="fade-up" data-aos-duration="1500" class="Titulos">Nuestros trabajos</h1></div>
+      <div data-aos="fade-down" data-aos-duration="2000" id="trabajosCuerpo">
+        <div class="card bg-dark text-white">
+          <img src="" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+          </div>
+        </div>
+
+        <div class="card bg-dark text-white">
+          <img src="..." class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <p class="card-text">Last updated 3 mins ago</p>
+          </div>
+        </div>     
+      </div> -->
+                                      <!-- Nuestros trabajos -->
+
+   
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
