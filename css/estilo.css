@@ -2,15 +2,26 @@
   #inicio img {
     width: 45% !important; }
   #inicio h1 {
-    font-size: 2.3rem !important; }
+    font-size: 2.4rem !important; }
   #inicio h2 {
-    font-size: 1.3em !important; }
+    font-size: 1.5em !important; }
   #AboutUS h2 {
     font-size: 1.6rem !important; }
   #AboutUS h3 {
     font-size: 1rem !important; }
   .Titulos {
-    font-size: 2.25rem !important; } }
+    font-size: 2.25rem !important; } 
+  .TextoLotes{
+    font-size: 1.1rem;}
+    #Loteos {
+      width: 96%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around; }
+      #Loteos div {
+        margin: 15px 0 15px 0;
+        width: 100% !important; }
+    }
 
 @media (max-width: 1300px) {
   #Contacto {
@@ -125,15 +136,14 @@ nav {
   font-size: 3.5rem; }
 
 #inicio {
-  background-image: url(/images/broker-giving-keys.jpg);
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: url(/images/wallpaper2.jpg);
+  background-size:cover;
+  background-position: center;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 83%;
-  height: 80vh;
-  border-radius: 10px;
+  width: 100%;
+  height: 100vh;
   flex-direction: column; }
   #inicio img {
     margin: 3px;
@@ -145,7 +155,7 @@ nav {
     width: 100%;
     height: 30%;
     text-align: center;
-    border-radius: 16px; }
+    border-radius: 10px; }
     #inicio div h1 {
       color: red;
       font-family: "Acme" sans-serif;
@@ -158,13 +168,13 @@ nav {
       margin-top: 30px; }
 
 #Loteos {
-  width: 100%;
+  width: 96%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around; }
   #Loteos div {
     margin: 15px 0 15px 0;
-    width: 40%; }
+    width: 45%; }
 
 .TextoLotes {
   margin-left: 5px;
@@ -184,10 +194,9 @@ nav {
   width: 97.3%;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
-  background-color: rgba(233, 233, 233, 0.199); }
+  justify-content: space-around; }
   #Contacto iframe {
-    width: 95%; }
+    width: 95% !important; }
   #Contacto .direccion {
     font-family: 'Fraunces',serif;
     font-size: 100;
